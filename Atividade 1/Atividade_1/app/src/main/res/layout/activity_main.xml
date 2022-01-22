@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/Texto_Principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Valor ingresado..."
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/Edit_Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="Ingrese Valor" />
+
+    <Button android:id="@+id/boton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:text="Asignar valor"
+        />
+</LinearLayout>
+
+
+
